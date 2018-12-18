@@ -67,5 +67,7 @@ mkdir /mnt/hdd/hdd6/Docker_Volumes/Lightning/Simnet
 #so now it is time to pull from the M2.ssd
 #This should take a very long time
 
-ls /mnt/hdd | parallel -v -j8 rsync -r --progress /mnt/seed/bitcoin-lightning-docker 
+
+
+ls /mnt/hdd | parallel -v -j8 rsync -r --progress /mnt/seed/bitcoin-lightning-docke /mnt/hdd/{}/Docker_Volumes/Lightning/Mainnet 
 
