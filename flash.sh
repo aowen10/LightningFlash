@@ -69,5 +69,5 @@ mkdir /mnt/hdd/hdd6/Docker_Volumes/Lightning/Simnet
 
 
 
-ls /mnt/hdd | parallel -v -j8 rsync -r --progress /mnt/seed/bitcoin-lightning-docke /mnt/hdd/{}/Docker_Volumes/Lightning/Mainnet 
+ls /mnt/hdd | parallel -v -j8 rsync -r --progress /mnt/seed/bitcoin-mainnet-data/ /mnt/hdd/{}/Docker_Volumes/Lightning/Mainnet/ 
 
