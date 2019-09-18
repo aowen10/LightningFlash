@@ -1,10 +1,10 @@
 
-mount /dev/sda4 /mnt/hdd/hdd1
-mount /dev/sdb4 /mnt/hdd/hdd2
-mount /dev/sdc4 /mnt/hdd/hdd3
-mount /dev/sdd4 /mnt/hdd/hdd4
-mount /dev/sde4 /mnt/hdd/hdd5
-mount /dev/sdf4 /mnt/hdd/hdd6
+mount /dev/sda3 /mnt/hdd/hdd1
+mount /dev/sdb3 /mnt/hdd/hdd2
+mount /dev/sdc3 /mnt/hdd/hdd3
+mount /dev/sdd3 /mnt/hdd/hdd4
+mount /dev/sde3 /mnt/hdd/hdd5
+mount /dev/sdf3 /mnt/hdd/hdd6
 
 mount /dev/sdg /mnt/seed
 
